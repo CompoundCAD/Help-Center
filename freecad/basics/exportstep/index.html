@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#export-stepstp-files-in-freecad" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -240,23 +245,14 @@
   
     
     
-      
-  
-  
-  
-    
-    
       <li class="md-tabs__item">
-        <a href="../../../erpnext/configuration/initial-setup/" class="md-tabs__link">
+        <a href="../../../erpnext/" class="md-tabs__link">
           
   
   ERPNext
 
         </a>
       </li>
-    
-  
-
     
   
 
@@ -632,6 +628,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Export .STEP/.STP Files in FreeCAD
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -642,6 +651,154 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-step-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a STEP File?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps-to-export-a-step-file-in-freecad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps to Export a STEP File in FreeCAD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Steps to Export a STEP File in FreeCAD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-open-your-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Open Your Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-switch-to-the-proper-workbench" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Switch to the Proper Workbench
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-check-the-models-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Check the Model’s Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-export-the-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Export the File
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-verify-the-exported-file-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Verify the Exported File (Optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-a-successful-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips for a Successful Export
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-issues-and-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Issues and Solutions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-can-i-export-multiple-objects-at-once" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Can I export multiple objects at once?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-what-if-the-colors-dont-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. What if the colors don’t transfer?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-can-freecad-import-step-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Can FreeCAD import STEP files?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -795,6 +952,27 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../erpnext/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
     
@@ -806,10 +984,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -820,8 +998,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             Configuration
           </label>
@@ -894,10 +1072,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
         
           
-          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -908,8 +1086,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
             Workflows
           </label>
@@ -1049,6 +1227,145 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-step-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a STEP File?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps-to-export-a-step-file-in-freecad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps to Export a STEP File in FreeCAD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Steps to Export a STEP File in FreeCAD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-open-your-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Open Your Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-switch-to-the-proper-workbench" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Switch to the Proper Workbench
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-check-the-models-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Check the Model’s Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-export-the-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Export the File
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-verify-the-exported-file-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Verify the Exported File (Optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-a-successful-export" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips for a Successful Export
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-issues-and-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Issues and Solutions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-can-i-export-multiple-objects-at-once" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Can I export multiple objects at once?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-what-if-the-colors-dont-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. What if the colors don’t transfer?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-can-freecad-import-step-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Can FreeCAD import STEP files?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1063,80 +1380,88 @@
                   
 
 
-  <h1>Export .STEP/.STP Files in FreeCAD</h1>
-
-<p>Export .STEP/.STP Files in FreeCAD</p>
+<h1 id="export-stepstp-files-in-freecad">Export .STEP/.STP Files in FreeCAD</h1>
 <p>FreeCAD supports exporting models to the .STEP or .STP format, a widely-used standard for CAD data exchange. This guide will walk you through the steps to export your models and provide tips for ensuring compatibility with other CAD systems.</p>
-<p>What is a STEP File?</p>
+<h2 id="what-is-a-step-file">What is a STEP File?</h2>
 <p>STEP (Standard for the Exchange of Product Model Data) is a standardized file format used for 3D CAD models.
-    •   File Extensions: .step or .stp
-    •   Purpose: Allows seamless data exchange between different CAD software.
-    •   Compatibility: Supported by most CAD programs like SolidWorks, AutoCAD, and Fusion 360.</p>
-<p>Steps to Export a STEP File in FreeCAD</p>
+- <strong>File Extensions</strong>: .step or .stp
+- <strong>Purpose</strong>: Allows seamless data exchange between different CAD software.
+- <strong>Compatibility</strong>: Supported by most CAD programs like SolidWorks, AutoCAD, and Fusion 360.</p>
+<h2 id="steps-to-export-a-step-file-in-freecad">Steps to Export a STEP File in FreeCAD</h2>
+<h3 id="1-open-your-model">1. Open Your Model</h3>
+<ul>
+<li>Launch FreeCAD and open the file you want to export.</li>
+<li><strong>Supported file types</strong>: .fcstd, .stl, .obj, etc.</li>
+</ul>
+<h3 id="2-switch-to-the-proper-workbench">2. Switch to the Proper Workbench</h3>
+<ul>
+<li>Select a workbench where your model is fully visible and prepared for export.</li>
+<li><strong>Commonly used workbenches</strong>: Part Design, Part, or Assembly.</li>
+</ul>
+<h3 id="3-check-the-models-structure">3. Check the Model’s Structure</h3>
+<ul>
+<li>Ensure your model is correctly structured and free of errors:</li>
+<li>No unlinked references or missing components.</li>
+<li>Properly closed solids (important for compatibility).</li>
+</ul>
+<h3 id="4-export-the-file">4. Export the File</h3>
 <ol>
-<li>
-<p>Open Your Model</p>
-<p>•   Launch FreeCAD and open the file you want to export.
-•   Supported file types: .fcstd, .stl, .obj, etc.</p>
-</li>
-<li>
-<p>Switch to the Proper Workbench</p>
-<p>•   Select a workbench where your model is fully visible and prepared for export.
-•   Commonly used workbenches: Part Design, Part, or Assembly.</p>
-</li>
-<li>
-<p>Check the Model’s Structure</p>
-<p>•   Ensure your model is correctly structured and free of errors:
-•   No unlinked references or missing components.
-•   Properly closed solids (important for compatibility).</p>
-</li>
-<li>
-<p>Export the File</p>
+<li><strong>Select Objects</strong>:</li>
+<li>Click on the object(s) you want to export in the Model Tree.</li>
+<li><strong>Export as STEP/STP</strong>:</li>
+<li>Go to File &gt; Export or press Ctrl+E.</li>
+<li>Choose a location and name for your file.</li>
+<li>Select STEP with colors (<em>.step </em>.stp) from the file type dropdown.</li>
+<li><strong>Save the File</strong>:</li>
+<li>Click Save to complete the export.</li>
+</ol>
+<h3 id="5-verify-the-exported-file-optional">5. Verify the Exported File (Optional)</h3>
+<ul>
+<li>Open the exported .step file in another CAD software or re-import it into FreeCAD to confirm its integrity.</li>
+</ul>
+<h2 id="tips-for-a-successful-export">Tips for a Successful Export</h2>
 <ol>
-<li>Select Objects:
-•   Click on the object(s) you want to export in the Model Tree.</li>
-<li>Export as STEP/STP:
-•   Go to File &gt; Export or press Ctrl+E.
-•   Choose a location and name for your file.
-•   Select STEP with colors (<em>.step </em>.stp) from the file type dropdown.</li>
-<li>Save the File:
-•   Click Save to complete the export.</li>
+<li><strong>Simplify the Model</strong>:</li>
+<li>Remove unnecessary features or details to reduce file size and complexity.</li>
+<li><strong>Ensure Solid Bodies</strong>:</li>
+<li>Many CAD programs require models to be fully enclosed solids for proper handling.</li>
+<li>Use <strong>Check Geometry</strong> (available in the Part workbench) to validate your model.</li>
+<li><strong>Use STEP with Colors</strong>:</li>
+<li>Exporting with colors preserves visual properties, improving usability in downstream processes.</li>
+<li><strong>Export Individual Parts</strong>:</li>
+<li>For large assemblies, export parts individually for better performance and compatibility.</li>
 </ol>
-</li>
-<li>
-<p>Verify the Exported File (Optional)</p>
-<p>•   Open the exported .step file in another CAD software or re-import it into FreeCAD to confirm its integrity.</p>
-</li>
-</ol>
-<p>Tips for a Successful Export</p>
-<pre><code>1.  Simplify the Model:
-•   Remove unnecessary features or details to reduce file size and complexity.
-2.  Ensure Solid Bodies:
-•   Many CAD programs require models to be fully enclosed solids for proper handling.
-•   Use Check Geometry (available in the Part workbench) to validate your model.
-3.  Use STEP with Colors:
-•   Exporting with colors preserves visual properties, improving usability in downstream processes.
-4.  Export Individual Parts:
-•   For large assemblies, export parts individually for better performance and compatibility.
-</code></pre>
-<p>Common Issues and Solutions</p>
-<p>Issue   Solution
-Exported file is too large  Simplify the geometry or remove unnecessary details before exporting.
-Missing features after import   Ensure all components in FreeCAD are visible and properly selected before exporting.
-File fails to open in other CAD software    Check for unlinked or invalid geometry in FreeCAD using Check Geometry.</p>
-<p>FAQs</p>
-<ol>
-<li>Can I export multiple objects at once?</li>
-</ol>
+<h2 id="common-issues-and-solutions">Common Issues and Solutions</h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exported file is too large</td>
+<td>Simplify the geometry or remove unnecessary details before exporting.</td>
+</tr>
+<tr>
+<td>Missing features after import</td>
+<td>Ensure all components in FreeCAD are visible and properly selected.</td>
+</tr>
+<tr>
+<td>File fails to open in other CAD software</td>
+<td>Check for unlinked or invalid geometry in FreeCAD using Check Geometry.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="faqs">FAQs</h2>
+<h3 id="1-can-i-export-multiple-objects-at-once">1. Can I export multiple objects at once?</h3>
 <p>Yes, select all desired objects in the Model Tree before exporting. The exported STEP file will include all selected components.</p>
-<ol>
-<li>What if the colors don’t transfer?</li>
-</ol>
+<h3 id="2-what-if-the-colors-dont-transfer">2. What if the colors don’t transfer?</h3>
 <p>Ensure you’ve selected the STEP with colors format when exporting. If the issue persists, check if the receiving software supports STEP color data.</p>
-<ol>
-<li>Can FreeCAD import STEP files?</li>
-</ol>
+<h3 id="3-can-freecad-import-step-files">3. Can FreeCAD import STEP files?</h3>
 <p>Yes, FreeCAD supports importing STEP files. Go to File &gt; Import and select a .step or .stp file to open it.</p>
+<hr />
 <p>By following this guide, you can easily export models from FreeCAD in the STEP format for use in other CAD applications. If you have additional questions, visit our FreeCAD Help Center or contact support.</p>
 
 
