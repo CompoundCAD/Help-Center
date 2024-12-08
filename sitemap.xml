@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://compoundcad.github.io/help-center/</loc>
+         <loc>https://help.compoundcad.com/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://compoundcad.github.io/help-center/faq/</loc>
+         <loc>https://help.compoundcad.com/faq/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
     <url>
-         <loc>https://compoundcad.github.io/help-center/getting-started/</loc>
+         <loc>https://help.compoundcad.com/getting-started/</loc>
          <lastmod>2024-12-08</lastmod>
     </url>
 </urlset>
